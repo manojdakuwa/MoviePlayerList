@@ -1,0 +1,61 @@
+/* You can add global styles to this file, and also import other style files */
+.slick-slider {
+    margin: auto;
+    background: #000;
+  }
+   
+  .nav-btn {
+    height: 47px;
+    position: absolute;
+    width: 26px;
+    cursor: pointer;
+    top: 100px !important;
+  }
+   
+  .prev-slide.slick-disabled,
+  .next-slide.slick-disabled {
+    pointer-events: none;
+    opacity: 0.2;
+  }
+   
+  /* .prev-slide {
+    background: url(assets/images/nav-icon.png) no-repeat scroll 0 0;
+    left: -33px;
+  }
+   
+  .next-slide {
+    background: url(assets/images/nav-icon.png) no-repeat scroll -24px 0px;
+    right: -33px;
+  } */
+   
+  .prev-slide:hover {
+    background-position: 0px -53px;
+  }
+   
+  .next-slide:hover {
+    background-position: -24px -53px;
+  }
+
+  
+/*=========SET: Manoj Dakuwa=========*/
+body { /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#1f4276+0,294e8f+100 */
+    background: #1f4276; /* Old browsers */
+    background: -moz-linear-gradient(top,  #1f4276 0%, #294e8f 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  #1f4276 0%,#294e8f 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  #1f4276 0%,#294e8f 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1f4276', endColorstr='#294e8f',GradientType=0 ); /* IE6-9 */;
+    margin: 0;
+    height: 100%;
+    min-height: 100vh;
+    margin-top: 50px;
+}
+app-playlist { max-width: 400px; width: 100%; display: block; margin: 0 auto; background: gray; padding: 5px 5px; border-radius: 5px; }
+ngx-slick-carousel { width: 100%; }
+
+ngx-slick-carousel.slick-slider { width: 100%; }
+
+img { width: 100%; }
+ngx-slick-carousel .slick-track .slide { height: 100px; }
+
+app-video-player h4 { margin: 0px; color: #ffffff;  font-family: Arial, Helvetica, sans-serif; font-weight: 500; font-size: 16px; }
+/*=========END: Manoj=========*/

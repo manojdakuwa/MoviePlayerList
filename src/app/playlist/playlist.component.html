@@ -1,0 +1,10 @@
+<app-video-player sourceFromParent="{{trailer}}" titleFromParent="{{name}}"></app-video-player>
+<ngx-slick-carousel class="carousel" 
+#slickModal="slick-carousel" 
+[config]="slideConfig">
+<div ngxSlickItem *ngFor="let list of plylist" class="slide">
+<img src="{{list.poster}}" alt="" width="50px" (mouseover)="Content(list.trailer,list.name)">
+</div>
+</ngx-slick-carousel>
+
+
